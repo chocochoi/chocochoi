@@ -8,7 +8,7 @@ export default class RootApp extends App {
     const { Component, ...other } = this.props;
     return (
       <Container>
-        <div>
+        <div id="wrap">
           <Header />
           <main>
             <Component {...other} />
