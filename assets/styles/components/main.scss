@@ -1,8 +1,43 @@
-.cont{
-  max-width:950px;
-  min-width:320px;
-  margin:0 auto;
-  img{
-    width:100%;
+#main-contents{
+  padding-top:220px;
+  .mail-area {
+    position: relative;
+    width: 600px;
+    height:420px;
+    background:#000;
+    margin:0 auto;
+    .paper-box{
+      position:absolute;
+      bottom:0;
+      left:20px;
+      right:20px;
+      height:500px;
+      background:#fff;
+      box-sizing: border-box;
+      padding:30px;
+      -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4);
+      -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4);
+      box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4);
+      .cont-line{
+        border-bottom:1px solid #000;
+        padding:5px 0;
+      }
+    }
+    .mail-box{
+      position: absolute;
+      bottom:0;
+      left:0;
+      width: 600px;
+      border-style: solid;
+      border-color: transparent;
+      border-left-color: black;
+      border-bottom-color: black;
+      border-right-color: black;
+      border-top-width: 200px;
+      border-left-width: 300px;
+      border-bottom-width: 220px;
+      border-right-width: 300px;
+      box-sizing: border-box;
+    }
   }
 }

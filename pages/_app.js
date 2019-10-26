@@ -1,5 +1,6 @@
 import App, { Container } from 'next/app';
 import React from 'react';
+import '@styles/reset.scss';
 import Header from '@layout/Header';
 import Footer from '@layout/Footer';
 
