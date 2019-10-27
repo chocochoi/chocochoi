@@ -7,7 +7,7 @@ const Header = () => (
     <h1><a href="/">CHOI</a></h1>
     <nav>
       <ul className="gnb-list">
-        <li><Link href="/menu01"><a>menu01</a></Link></li>
+        <li><Link href="/menu01"><a>TODO</a></Link></li>
         <li><a href="#none">menu02</a></li>
         <li><a href="#none">menu03</a></li>
       </ul>
