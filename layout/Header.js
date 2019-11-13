@@ -10,6 +10,7 @@ const Header = () => (
         <li><Link href="/menu01"><a>TODO</a></Link></li>
         <li><a href="#none">menu02</a></li>
         <li><a href="#none">menu03</a></li>
+        <li><Link href="/mail"><a>mail</a></Link></li>
       </ul>
     </nav>
   </header>

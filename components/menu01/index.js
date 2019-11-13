@@ -14,15 +14,15 @@ const Menu01Container = () => {
 
   return (
     <div>
-    <input onChange={(e)=>{changeHandler(e)}} type="text"/>
-    <button onClick={(e)=>{clickHandler()}}>클릭</button>
-    <ul>
-      {
-        list.map((obj, index) => (
-          <List key={`${index}key`} item={obj}/>
-        ))
-      }
-    </ul>
+      <input onChange={(e) => { changeHandler(e); }} type="text" />
+      <button onClick={(e) => { clickHandler() ;}}>클릭</button>
+      <ul>
+        {
+          list.map((obj, index) => (
+            <List key={`${index}key`} item={obj} />
+          ))
+        }
+      </ul>
     </div>
   );
 };
