@@ -44,13 +44,16 @@ async mailSubmit() {
   });
 
   try {
-    await axios.post('https://script.google.com/macros/s/AKfycbzjXFXeSTbhD2b35pfatSn6zCkTVswRvTRckKEwtCPPPkQYTgym/exec', form);
+    await axios.post('https://script.google.com/macros/s/AKfycbzjXFXeSTbhD2b35pfatSn6zCkTVswRvTRckKEwtCPPPkQYTgym/eec', form);
     alert('전송 성공');
     this.setState({
       isLoader: false,
     });
   } catch (error) {
     alert('전송 실패');
+    this.setState({
+      isLoader: false,
+    });
   }
 }
 
