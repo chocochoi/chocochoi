@@ -40,5 +40,10 @@
     "sass-resources-loader": "^2.0.1",
     "url-loader": "^2.2.0",
     "webpack": "^4.29.6"
+  },
+  "eslintConfig": {
+    "rules": {
+      "no-console": "off"
+    }
   }
 }

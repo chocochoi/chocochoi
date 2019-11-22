@@ -11,6 +11,7 @@ export default class RootDocument extends Document {
           <meta name="keywords" content="react, next" />
           <link rel="shortcut icon" href="../static/icon-smoker.png" />
           {/* <link rel="stylesheet" href="" /> 외부스타일시트 */}
+          <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossOrigin="anonymous" />
         </Head>
         <body>
           <Main />
